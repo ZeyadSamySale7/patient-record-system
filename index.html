@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patient Record System - Ahmed Samy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Patient Record System</h1>
+    <p>By Dr. Ahmed Samy & Coded by Ziad</p>
+  </header>
+
+  <main>
+    <form id="patient-form">
+      <h2>Add New Patient</h2>
+      <input type="text" placeholder="Patient Name" id="name" required />
+      <input type="number" placeholder="Age" id="age" required />
+      <input type="text" placeholder="Diagnosis" id="diagnosis" required />
+      <textarea placeholder="Notes" id="notes"></textarea>
+      <button type="submit">Save Patient</button>
+    </form>
+
+    <section id="search-section">
+      <h2>Search Patients</h2>
+      <input type="text" id="search" placeholder="Type a name..." />
+    </section>
+
+    <section id="patient-list">
+      <h2>Saved Patients</h2>
+      <ul id="list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ahmed Samy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
